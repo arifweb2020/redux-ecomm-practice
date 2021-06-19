@@ -17,7 +17,7 @@ export const fetchProducts = ()=>{
 
   return async (dispatch)=>{
 
-      const res = await fetch('https://run.mocky.io/v3/05e9651d-528e-4d7c-a60b-bae8f09684c6');
+      const res = await fetch('http://localhost:3000/arifstore1');
 
       const res1 = await res.json();
 
